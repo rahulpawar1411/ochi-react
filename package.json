@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "type": "module",
-  "homepage": "https://rahulpawar1411.github.io/Ochi",
+  "homepage": "https://rahulpawar1411.github.io/ochi-React",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

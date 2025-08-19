@@ -11,7 +11,7 @@ function Eyes() {
 
       let deltaX = mouseX - window.innerWidth / 2;
       let deltaY = mouseY - window.innerHeight / 2;
-      //   mouse ki location ka aadha (50% means 1000 ka 500%)
+      //   mouse ki location ka aadha (50% means 1000 ka 500)
 
       var angle = Math.atan2(deltaY, deltaX) * (180 / Math.PI);
       setRotated(angle - 180);

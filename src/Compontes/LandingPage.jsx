@@ -38,9 +38,9 @@ const LandingPage = () => {
             })}
 
             <div className="start flex gap-2">
-                <div className=" border-[1px] border-zinc-500 px-5  uppercase py-1 rounded-full font-light">
+                <div className=" border-[1px] border-zinc-500 px-5 hover:bg-black hover:text-white ease-in duration-150 cursor-pointer uppercase py-1 rounded-full font-light">
                 Start The Project</div>
-                <div className=" w-8  border-[1px] border-zinc-500  rounded-full  flex items-center justify-center">
+                <div className=" w-8  border-[1px] hover:bg-black hover:text-white ease-in duration-150 cursor-pointer border-zinc-500  rounded-full  flex items-center justify-center">
                 <GoArrowUpRight />
                 </div>
             </div>

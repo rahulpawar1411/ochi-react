@@ -21,7 +21,7 @@ const Featured = () => {
   };
 
   return (
-    <div className="w-full py-10">
+    <div className="w-full py-10 ">
       <div className="w-full px-16 py-10 border-b-[1px] border-[#212121] ">
         <h1 className="text-5xl font-[#212121] ">Featured projects</h1>
       </div>
@@ -274,7 +274,7 @@ const Featured = () => {
       </div>
 
       <div className="centerbtn w-full h-[10vw]  flex justify-center items-center ">
-        <button className= "text-[1.3vw] border-black border-[1px] bg-black text-white uppercase rounded-full px-6 py-2 flex items-center justify-center gap-4">
+        <button className= "text-[1.3vw] border-black border-[1px] hover:bg-zinc-900 hover:text-white ease-in duration-150 bg-black text-white uppercase rounded-full px-6 py-2 flex items-center justify-center gap-4">
           view all case studies <GoDotFill /> </button>
       </div>
   

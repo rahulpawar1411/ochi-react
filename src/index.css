@@ -2,7 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-::selection{
+::selection {
     background-color: black;
     color: #fff;
+}
+
+body {
+    overflow: hidden;
+    /* Prevent scrolling */
+}
+
+body {
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+body::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari, and Opera */
 }

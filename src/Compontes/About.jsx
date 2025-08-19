@@ -45,7 +45,7 @@ function About() {
       <div className="w-full border-t-[1px] border-[#99AD53] pt-5 px-16 flex">
         <div className="left w-[50%]">
           <h1 className="text-5xl mb-[2vw]">Our Approach:</h1>
-          <button className="bg-[#212121] text-white p-4 px-8 rounded-full uppercase">
+          <button className="bg-[#212121] hover:bg-zinc-800 hover:text-white ease-in duration-150 text-white p-4 px-8 rounded-full uppercase">
             Read More
           </button>
         </div>

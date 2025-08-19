@@ -6,7 +6,7 @@ const Button = () => {
     //      <div  className='w-[12vw] text-[1vw] rounded-full border-[1px] flex itmes-center justify-center py-1 uppercase border-black '>This is button ok</div>
     // </div>
     <div className="centerbtn w-full h-[10vw] mt-5  ">
-        <button className= "text-[1vw] border-black border-[1px] rounded-full px-3 py-1 ">
+        <button className= "text-[1vw] hover:bg-black hover:text-white ease-in duration-150 border-black border-[1px] rounded-full px-3 py-1 ">
           view all case studies
           
            </button>

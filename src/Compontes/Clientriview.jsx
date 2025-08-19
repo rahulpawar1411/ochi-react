@@ -14,10 +14,13 @@ const Clientriview = () => {
           <h1 className="w-1/2 ">Karman Ventures</h1>
           <div className=" w-1/2 flex flex-col justify-start items-start ">
             <h1>Services:</h1>
-            <button className="mt-20 border-[1px] py-1 px-4 uppercase rounded-full border-black ">
+            <button className="mt-20 border-[1px] py-1 px-4 uppercase rounded-full
+            hover:bg-black hover:text-white ease-in duration-150
+            border-black ">
               investor deck
             </button>
-            <button className="mt-3 py-1 border-[1px] px-4 uppercase rounded-full border-black ">
+            <button className="mt-3 py-1 border-[1px] px-4 uppercase rounded-full
+            hover:bg-black hover:text-white ease-in duration-150 border-black ">
               salse deck
             </button>
           </div>

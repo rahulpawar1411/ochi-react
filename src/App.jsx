@@ -20,7 +20,7 @@ const App = () => {
   const locomotiveScroll = new LocomotiveScroll();
 
   return (
-    <div className='w-full h-scree rounded-2xl'>
+    <div className=' w-full h-scree rounded-2xl'>
       <Nav/> 
       <LandingPage/>
       <Page2/>
